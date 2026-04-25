@@ -5,12 +5,23 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "prompt-firewall"
 version = "0.1.0"
-description = "Redact secrets and personal data before sending text to AI tools."
+description = "Stop leaking secrets into AI prompts."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
 authors = [{ name = "Debraj Mukherjee" }]
-keywords = ["cli", "developer-tools", "open-source", "automation"]
+keywords = [
+  "ai",
+  "cli",
+  "developer-tools",
+  "dlp",
+  "llm",
+  "open-source",
+  "privacy",
+  "prompt",
+  "redaction",
+  "security",
+]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Environment :: Console",
